@@ -3,7 +3,10 @@
 #include <string.h> 
  /*
  这个例子就是死锁的例子
- 
+ */
+/*
+ 这个.c文件只有这里改变了，是可以用的
+我现在测试了我的客户端的git，然后在WEN端查看是否有改变， 
  */
 pthread_mutex_t mutexA = PTHREAD_MUTEX_INITIALIZER; 
 pthread_mutex_t mutexB = PTHREAD_MUTEX_INITIALIZER;
